@@ -324,6 +324,7 @@ module.exports = {
               ]),
               // @remove-on-eject-end
               plugins: [
+                ['transform-decorators-legacy'],
                 [
                   require.resolve('babel-plugin-named-asset-import'),
                   {
